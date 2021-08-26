@@ -1,0 +1,21 @@
+{
+  "name": "native-scroller",
+  "version": "0.0.1",
+  "description": "A framework agnostic web component scroller that only uses CSS to mimic native-like behavior.",
+  "main": "dist/css-scroller.min.js",
+  "author": "Daniel Blake <daniel@danielblake.design>",
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild src/index.ts --loader:.ts=ts --bundle --minify --format=esm --outfile=dist/native-scroller.min.js",
+    "lint": "eslint 'src/**/*'",
+    "size": "bundlesize"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "bundlesize": "^0.18.1",
+    "esbuild": "^0.12.23",
+    "eslint": "^7.32.0",
+    "typescript": "^4.3.5"
+  }
+}

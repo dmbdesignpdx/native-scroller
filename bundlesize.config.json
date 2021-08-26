@@ -1,0 +1,8 @@
+{
+  "files": [
+    {
+      "path": "./dist/native-scroller.min.js",
+      "maxSize": "3 kB"
+    }
+  ]
+}

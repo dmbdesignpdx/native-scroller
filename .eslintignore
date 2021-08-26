@@ -1,0 +1,9 @@
+next-env.d.ts
+.next/
+.yarn/
+public/
+src/styles/
+**/*.scss
+*.config.js
+*.json
+dist/
